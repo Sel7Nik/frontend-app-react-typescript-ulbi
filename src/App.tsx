@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div>
       <h1>СТАРТ</h1>
-      <Card onClick={(num) => console.log('click', num)} width={'150px'} height={'150px'} variant={CardVariant.primary}>
+      <Card onClick={(num) => console.log('click', num)} width={'150px'} height={'150px'} variant={CardVariant.outlined}>
         <button>ЖМИ</button>
       </Card>
       <UserList users={users} />
